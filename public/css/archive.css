@@ -4,11 +4,12 @@
 body{font-size: 15px;}
 
 
-.archivew1{background: url(../img/bg-1.png);color: white;}
+.archivew1{background: url(../img/bg-1.png);color: white;border-bottom:2px solid black }
 
 .header{padding: 25px 0px;}
 .header img{width: 150px;height: 40px;}
 /*.header a{background: url(imgg/sep.png) no-repeat right center;padding: 0px 24px;font-weight: 450}*/
+.brk{padding-bottom: 15px}
 .w3{background: url(../img/bg-1.png);color: white;margin-top: 20px;border-top: 2px solid black}
 .zz{padding-top: 40px}
 .zz p{line-height: 16px}
@@ -52,7 +53,7 @@ body{font-size: 15px;}
 
 }
 
-.carousel-indicators{right: -214px;left: 687px;bottom: -9px}
+.carousel-indicators{bottom: -18px;margin-left: 83%;margin-right: 0}
 .carousel-indicators li{background-color: darkgray}
 .carousel-indicators .active{background-color: dimgrey}
 .carousel-control-prev-icon, .carousel-control-next-icon{display: none}
@@ -102,7 +103,7 @@ hr{background: white}
 .lightbox:hover .over{display: block; cursor: pointer; color: #fff}
 
 #333333
-.archivew2{border-top: 2px solid black;padding-bottom: 25px}
+.archivew2{border-top: 2px solid black;padding-bottom: 25px;}
 .archivew2 a{color:black}
 .archivew2 li{margin-left: 0;padding-left: 0}
 .archivew2 h2{margin-top: 25px;margin-bottom: 10px}
@@ -115,9 +116,13 @@ a:hover{color: blue}
 
 
 .portw2{border-top: 2px solid black;padding-bottom: 20px}
-.portw2 h3{font-size: 15px}
+.portw2 h3{font-size: 15px;margin: 2px 0px}
 .portw2 h2{padding-top: 20px}
 .grayb{color: darkgrey}
+.fa-tag{margin-top: 4px}
+.portdivider{ height: 5px; background: url(../img/divider.png); width: inherit;}
+.portcol{margin-bottom: 20px;margin-top: 20px}
+
 
 
 
@@ -155,8 +160,8 @@ a:hover{color: blue}
   line-height: 38px;
   padding-top: 4px;
   padding-right: 4px;
- 
-    
+
+
 }
 
 .inv{float: left;}
